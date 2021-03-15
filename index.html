@@ -8,36 +8,30 @@
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <script src="./js/main.js"></script>
     <title>Who Is The Cutest?</title>
 </head>
+
 <body class="container">
     <div class="container main">
     <h2>Quick question...</h2>
     <h1>Who is the cutest baby in your relationship?</h1>
     <div class="container buttons">
-        <div class="container button-one">
-            <a href="#"
-            ><button class="button one">
-                Me, Obviously
-                <i
-                class="em em-angel"
-                aria-role="presentation"
-                aria-label="BABY ANGEL"
-                ></i></button
-            ></a>
-        </div>
-        <div class="container button-two">
-            <a href="#"
-            ><button class="button two">
-                My bby!
-                <i
-                class="em em-heart_eyes"
-                aria-role="presentation"
-                aria-label="SMILING FACE WITH HEART-SHAPED EYES"
-                ></i></button
-            ></a>
-        </div>
+        <button class="button one" onclick="sacarAlerta()" id="button_1">
+            Me, Obviously
+            <i
+            class="em em-angel"
+            aria-role="presentation"
+            aria-label="BABY ANGEL"
+            ></i></button
+        ><button id = "button_2" class="button_two" onmouseover="changePosition()">
+            My bby!
+            <i
+            class="em em-heart_eyes"
+            aria-role="presentation"
+            aria-label="SMILING FACE WITH HEART-SHAPED EYES"
+            ></i></button>
     </div>
     </div>
 </body>

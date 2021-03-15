@@ -14,7 +14,7 @@ body,html{
 
 body{
     height: 100%;
-    background: url('/resources/background.jpg') no-repeat;
+    background: url(../resources/background.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -42,4 +42,12 @@ body{
 .button{
     height: 50px;
     width: 250px;
+    cursor: pointer;
+}
+
+.button_two{
+    height: 50px;
+    width: 250px;
+    cursor: pointer;
+    
 }
